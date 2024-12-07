@@ -1,0 +1,252 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #fefaf0;
+}
+
+header {
+    background: #fefaf0;
+    padding: 15px;
+}
+
+nav .menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav .menu li {
+    margin: 5px;
+}
+
+nav .menu a {
+    text-decoration: none;
+    color: #232323;
+    font-weight: bold;
+}
+
+nav .menu a.active {
+    background-color: #e8e59b;
+}
+
+nav .menu a:hover {
+    color: #0073e6;
+}
+
+nav .search input {
+    padding: 5px;
+    border: 1px solid #fefaf0;
+    border-radius: 15px;
+}
+
+.portfolio {
+    text-align: left;
+    background-color: #ddddcc;
+    padding: 10px;
+}
+
+.portfolio h1 {
+    font-size: 3.5rem;
+    color: #232323;
+    margin: 40px;
+}
+
+.tabs {
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    background-color: #ddddcc;
+    padding: 10px;
+}
+
+.tabs button {
+    background-color: #fefaf0;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px 65px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.tabs button.active {
+    background-color: #e8e59b;
+}
+
+.tabs button:hover {
+    background-color: #0073e6;
+}
+
+.instruction {
+    display: none;
+    padding: 50px;
+    margin: 20px;
+    background-color: #fefaf0;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.instruction.active {
+    display: block;
+}
+
+.instruction h3 {
+    font-size: 1.4rem;
+    margin-bottom: 2.0px;
+    color: #232323;
+}
+
+.instruction .h4-container {
+    background-color: #E8E59B;
+    padding: 0.5px; 
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    border-radius: 15px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.instruction .h4-container h4 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #6B6730;
+}
+
+.instruction h5 {
+    font-size: 1.0rem;
+    margin-bottom: 0.5px;
+    color: #232323;
+}
+
+.instruction .paragraph1 {
+    font-size: 1.0rem;
+    text-align: justify;
+    margin-bottom: 0.5px;
+    color: #232323;
+}
+
+.instruction ul {
+    font-size: 1.0rem;
+    text-align: justify;
+    margin-bottom: 0.5px;
+    color: #232323;
+}
+
+.instruction h6 {
+    font-size: 1.0rem;
+    text-align: center;
+    margin-bottom: 0.5px;
+    color: #0073e6;
+}
+
+.instruction .paragraph2 {
+    font-size: 1.0rem;
+    text-align: center;
+    margin-bottom: 0.5px;
+    color: #0073e6;
+}
+
+.instruction .paragraph3 {
+    font-size: 1.0rem;
+    text-align: justify;
+    text-indent: 50px;
+    margin-bottom: 0.5px;
+    color: #232323;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    margin: 10px auto;
+    background-color: #F6F6F6; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+th, td {
+    border: 1px solid #6B6730; 
+    padding: 15px;
+    text-align: center;
+    vertical-align: top;
+}
+
+th {
+    background-color: #6B6730; 
+    color: #fefaf0; 
+    font-size: 1.2rem;
+}
+
+td {
+    font-size: 1rem;
+    color: #232323; 
+}
+
+tr:hover {
+    background-color: #F6F6F6; 
+}
+
+.references {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.references li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.references li a {
+    color: #0073e6; 
+    text-decoration: none;
+}
+
+.references li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #e8e59b;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+footer h2 {
+    font-size: 3.0rem;
+    color: #232323;
+    margin-bottom: 10px;
+}
+
+footer .footer-menu {
+    list-style: none;
+    padding: 0;
+}
+
+footer .footer-menu li {
+    display: inline;
+    margin: 0px 10px;
+}
+
+footer .footer-menu a {
+    text-decoration: none;
+    color: #232323;
+}
+
+footer .footer-menu a.bold-link {
+    font-weight: bold;
+}
+
+footer p {
+    margin-top: 60px;
+    color: #232323;
+}
